@@ -48,19 +48,12 @@ namespace Tasks.Access_Modifiers._Encapsulation
             }
             set
             {
-                Id = Speciality;
+                Speciality=value;
             }
         }
 
 
-        public Student(int id,string name,string surname, string speciality)
-        {
-            Id = id;
-            Name = name;
-            Surname = surname;
-            Speciality = speciality;
-
-        }
+        
 
     }
 }
