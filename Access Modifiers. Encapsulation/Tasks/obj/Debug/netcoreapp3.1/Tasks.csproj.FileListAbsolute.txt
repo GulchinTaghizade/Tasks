@@ -1,0 +1,28 @@
+C:\Users\Asus\Desktop\Tasks\Tasks\bin\Debug\netcoreapp3.1\Tasks.exe
+C:\Users\Asus\Desktop\Tasks\Tasks\bin\Debug\netcoreapp3.1\Tasks.deps.json
+C:\Users\Asus\Desktop\Tasks\Tasks\bin\Debug\netcoreapp3.1\Tasks.runtimeconfig.json
+C:\Users\Asus\Desktop\Tasks\Tasks\bin\Debug\netcoreapp3.1\Tasks.runtimeconfig.dev.json
+C:\Users\Asus\Desktop\Tasks\Tasks\bin\Debug\netcoreapp3.1\Tasks.dll
+C:\Users\Asus\Desktop\Tasks\Tasks\bin\Debug\netcoreapp3.1\Tasks.pdb
+C:\Users\Asus\Desktop\Tasks\Tasks\obj\Debug\netcoreapp3.1\Tasks.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\Tasks\Tasks\obj\Debug\netcoreapp3.1\Tasks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Desktop\Tasks\Tasks\obj\Debug\netcoreapp3.1\Tasks.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\Tasks\Tasks\obj\Debug\netcoreapp3.1\Tasks.AssemblyInfo.cs
+C:\Users\Asus\Desktop\Tasks\Tasks\obj\Debug\netcoreapp3.1\Tasks.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\Tasks\Tasks\obj\Debug\netcoreapp3.1\Tasks.dll
+C:\Users\Asus\Desktop\Tasks\Tasks\obj\Debug\netcoreapp3.1\Tasks.pdb
+C:\Users\Asus\Desktop\Tasks\Tasks\obj\Debug\netcoreapp3.1\Tasks.genruntimeconfig.cache
+C:\Users\Gulchin\Desktop\Tasks\Access Modifiers. Encapsulation\Tasks\bin\Debug\netcoreapp3.1\Tasks.exe
+C:\Users\Gulchin\Desktop\Tasks\Access Modifiers. Encapsulation\Tasks\bin\Debug\netcoreapp3.1\Tasks.deps.json
+C:\Users\Gulchin\Desktop\Tasks\Access Modifiers. Encapsulation\Tasks\bin\Debug\netcoreapp3.1\Tasks.runtimeconfig.json
+C:\Users\Gulchin\Desktop\Tasks\Access Modifiers. Encapsulation\Tasks\bin\Debug\netcoreapp3.1\Tasks.runtimeconfig.dev.json
+C:\Users\Gulchin\Desktop\Tasks\Access Modifiers. Encapsulation\Tasks\bin\Debug\netcoreapp3.1\Tasks.dll
+C:\Users\Gulchin\Desktop\Tasks\Access Modifiers. Encapsulation\Tasks\bin\Debug\netcoreapp3.1\Tasks.pdb
+C:\Users\Gulchin\Desktop\Tasks\Access Modifiers. Encapsulation\Tasks\obj\Debug\netcoreapp3.1\Tasks.csproj.AssemblyReference.cache
+C:\Users\Gulchin\Desktop\Tasks\Access Modifiers. Encapsulation\Tasks\obj\Debug\netcoreapp3.1\Tasks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gulchin\Desktop\Tasks\Access Modifiers. Encapsulation\Tasks\obj\Debug\netcoreapp3.1\Tasks.AssemblyInfoInputs.cache
+C:\Users\Gulchin\Desktop\Tasks\Access Modifiers. Encapsulation\Tasks\obj\Debug\netcoreapp3.1\Tasks.AssemblyInfo.cs
+C:\Users\Gulchin\Desktop\Tasks\Access Modifiers. Encapsulation\Tasks\obj\Debug\netcoreapp3.1\Tasks.csproj.CoreCompileInputs.cache
+C:\Users\Gulchin\Desktop\Tasks\Access Modifiers. Encapsulation\Tasks\obj\Debug\netcoreapp3.1\Tasks.dll
+C:\Users\Gulchin\Desktop\Tasks\Access Modifiers. Encapsulation\Tasks\obj\Debug\netcoreapp3.1\Tasks.pdb
+C:\Users\Gulchin\Desktop\Tasks\Access Modifiers. Encapsulation\Tasks\obj\Debug\netcoreapp3.1\Tasks.genruntimeconfig.cache
