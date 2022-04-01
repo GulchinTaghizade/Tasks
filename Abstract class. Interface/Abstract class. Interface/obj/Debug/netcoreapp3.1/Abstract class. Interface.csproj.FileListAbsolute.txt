@@ -1,0 +1,14 @@
+C:\Users\Asus\Desktop\Tasks\Abstract class. Interface\Abstract class. Interface\bin\Debug\netcoreapp3.1\Abstract class. Interface.exe
+C:\Users\Asus\Desktop\Tasks\Abstract class. Interface\Abstract class. Interface\bin\Debug\netcoreapp3.1\Abstract class. Interface.deps.json
+C:\Users\Asus\Desktop\Tasks\Abstract class. Interface\Abstract class. Interface\bin\Debug\netcoreapp3.1\Abstract class. Interface.runtimeconfig.json
+C:\Users\Asus\Desktop\Tasks\Abstract class. Interface\Abstract class. Interface\bin\Debug\netcoreapp3.1\Abstract class. Interface.runtimeconfig.dev.json
+C:\Users\Asus\Desktop\Tasks\Abstract class. Interface\Abstract class. Interface\bin\Debug\netcoreapp3.1\Abstract class. Interface.dll
+C:\Users\Asus\Desktop\Tasks\Abstract class. Interface\Abstract class. Interface\bin\Debug\netcoreapp3.1\Abstract class. Interface.pdb
+C:\Users\Asus\Desktop\Tasks\Abstract class. Interface\Abstract class. Interface\obj\Debug\netcoreapp3.1\Abstract class. Interface.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\Tasks\Abstract class. Interface\Abstract class. Interface\obj\Debug\netcoreapp3.1\Abstract class. Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Desktop\Tasks\Abstract class. Interface\Abstract class. Interface\obj\Debug\netcoreapp3.1\Abstract class. Interface.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\Tasks\Abstract class. Interface\Abstract class. Interface\obj\Debug\netcoreapp3.1\Abstract class. Interface.AssemblyInfo.cs
+C:\Users\Asus\Desktop\Tasks\Abstract class. Interface\Abstract class. Interface\obj\Debug\netcoreapp3.1\Abstract class. Interface.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\Tasks\Abstract class. Interface\Abstract class. Interface\obj\Debug\netcoreapp3.1\Abstract class. Interface.dll
+C:\Users\Asus\Desktop\Tasks\Abstract class. Interface\Abstract class. Interface\obj\Debug\netcoreapp3.1\Abstract class. Interface.pdb
+C:\Users\Asus\Desktop\Tasks\Abstract class. Interface\Abstract class. Interface\obj\Debug\netcoreapp3.1\Abstract class. Interface.genruntimeconfig.cache
