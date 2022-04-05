@@ -1,0 +1,14 @@
+C:\Users\Asus\Desktop\Tasks\Upcasting,Downcasting\Upcasting,Downcasting\obj\Debug\netcoreapp3.1\Upcasting,Downcasting.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\Tasks\Upcasting,Downcasting\Upcasting,Downcasting\obj\Debug\netcoreapp3.1\Upcasting,Downcasting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Desktop\Tasks\Upcasting,Downcasting\Upcasting,Downcasting\obj\Debug\netcoreapp3.1\Upcasting,Downcasting.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\Tasks\Upcasting,Downcasting\Upcasting,Downcasting\obj\Debug\netcoreapp3.1\Upcasting,Downcasting.AssemblyInfo.cs
+C:\Users\Asus\Desktop\Tasks\Upcasting,Downcasting\Upcasting,Downcasting\obj\Debug\netcoreapp3.1\Upcasting,Downcasting.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\Tasks\Upcasting,Downcasting\Upcasting,Downcasting\bin\Debug\netcoreapp3.1\Upcasting,Downcasting.exe
+C:\Users\Asus\Desktop\Tasks\Upcasting,Downcasting\Upcasting,Downcasting\bin\Debug\netcoreapp3.1\Upcasting,Downcasting.deps.json
+C:\Users\Asus\Desktop\Tasks\Upcasting,Downcasting\Upcasting,Downcasting\bin\Debug\netcoreapp3.1\Upcasting,Downcasting.runtimeconfig.json
+C:\Users\Asus\Desktop\Tasks\Upcasting,Downcasting\Upcasting,Downcasting\bin\Debug\netcoreapp3.1\Upcasting,Downcasting.runtimeconfig.dev.json
+C:\Users\Asus\Desktop\Tasks\Upcasting,Downcasting\Upcasting,Downcasting\bin\Debug\netcoreapp3.1\Upcasting,Downcasting.dll
+C:\Users\Asus\Desktop\Tasks\Upcasting,Downcasting\Upcasting,Downcasting\bin\Debug\netcoreapp3.1\Upcasting,Downcasting.pdb
+C:\Users\Asus\Desktop\Tasks\Upcasting,Downcasting\Upcasting,Downcasting\obj\Debug\netcoreapp3.1\Upcasting,Downcasting.dll
+C:\Users\Asus\Desktop\Tasks\Upcasting,Downcasting\Upcasting,Downcasting\obj\Debug\netcoreapp3.1\Upcasting,Downcasting.pdb
+C:\Users\Asus\Desktop\Tasks\Upcasting,Downcasting\Upcasting,Downcasting\obj\Debug\netcoreapp3.1\Upcasting,Downcasting.genruntimeconfig.cache
