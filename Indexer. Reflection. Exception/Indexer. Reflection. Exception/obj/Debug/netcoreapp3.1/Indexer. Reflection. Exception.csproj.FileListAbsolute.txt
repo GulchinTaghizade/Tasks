@@ -1,0 +1,14 @@
+C:\Users\Asus\Desktop\Tasks\Indexer. Reflection. Exception\Indexer. Reflection. Exception\bin\Debug\netcoreapp3.1\Indexer. Reflection. Exception.exe
+C:\Users\Asus\Desktop\Tasks\Indexer. Reflection. Exception\Indexer. Reflection. Exception\bin\Debug\netcoreapp3.1\Indexer. Reflection. Exception.deps.json
+C:\Users\Asus\Desktop\Tasks\Indexer. Reflection. Exception\Indexer. Reflection. Exception\bin\Debug\netcoreapp3.1\Indexer. Reflection. Exception.runtimeconfig.json
+C:\Users\Asus\Desktop\Tasks\Indexer. Reflection. Exception\Indexer. Reflection. Exception\bin\Debug\netcoreapp3.1\Indexer. Reflection. Exception.runtimeconfig.dev.json
+C:\Users\Asus\Desktop\Tasks\Indexer. Reflection. Exception\Indexer. Reflection. Exception\bin\Debug\netcoreapp3.1\Indexer. Reflection. Exception.dll
+C:\Users\Asus\Desktop\Tasks\Indexer. Reflection. Exception\Indexer. Reflection. Exception\bin\Debug\netcoreapp3.1\Indexer. Reflection. Exception.pdb
+C:\Users\Asus\Desktop\Tasks\Indexer. Reflection. Exception\Indexer. Reflection. Exception\obj\Debug\netcoreapp3.1\Indexer. Reflection. Exception.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\Tasks\Indexer. Reflection. Exception\Indexer. Reflection. Exception\obj\Debug\netcoreapp3.1\Indexer. Reflection. Exception.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Desktop\Tasks\Indexer. Reflection. Exception\Indexer. Reflection. Exception\obj\Debug\netcoreapp3.1\Indexer. Reflection. Exception.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\Tasks\Indexer. Reflection. Exception\Indexer. Reflection. Exception\obj\Debug\netcoreapp3.1\Indexer. Reflection. Exception.AssemblyInfo.cs
+C:\Users\Asus\Desktop\Tasks\Indexer. Reflection. Exception\Indexer. Reflection. Exception\obj\Debug\netcoreapp3.1\Indexer. Reflection. Exception.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\Tasks\Indexer. Reflection. Exception\Indexer. Reflection. Exception\obj\Debug\netcoreapp3.1\Indexer. Reflection. Exception.dll
+C:\Users\Asus\Desktop\Tasks\Indexer. Reflection. Exception\Indexer. Reflection. Exception\obj\Debug\netcoreapp3.1\Indexer. Reflection. Exception.pdb
+C:\Users\Asus\Desktop\Tasks\Indexer. Reflection. Exception\Indexer. Reflection. Exception\obj\Debug\netcoreapp3.1\Indexer. Reflection. Exception.genruntimeconfig.cache
