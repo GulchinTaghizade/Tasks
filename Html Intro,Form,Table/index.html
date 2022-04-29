@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Html Intro,Form,Table</title>
+</head>
+<body>
+    
+    <form action="#">
+    <h2>Webinar Registration</h2>
+    <div>
+        <label class="required" for="name">Name:</label><br>
+        <input type="text" placeholder="First name" required>
+        <input type="text" placeholder="Last name" required>
+    </div><br>
+    <div>
+        <label class="required" for="email">Email:</label><br>
+        <input class="length" type="email" placeholder="jack@example.com" required>
+    </div><br>
+    <div>
+        <label class="required" for="companyName">Company Name:</label><br>
+        <input class="length" type="text" required>
+    </div><br>
+    <div>
+        <label class="required" for="companyWebsite">Company Website:</label><br>
+        <input class="length" type="url" placeholder="https://example.com" required>
+    </div><br>
+
+    <div>
+        <label for="Address">Address:</label><br>
+        <input class="length" type="text" placeholder="Street address"><br><br>
+        <input class="length" type="text" placeholder="Apartment,suite,etc"><br><br>
+        <input type="text" placeholder="City">
+        <input type="text" placeholder="State"><br><br>
+        <input type="text" placeholder="Postal Code">
+        <select name="country" id="">
+            <option value="country">United States of America</option>
+        </select>
+    </div><br>
+    <div>
+        <button > Register</button>
+    </div>
+</form>
+
+</body>
+</html>
