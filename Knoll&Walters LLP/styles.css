@@ -1,0 +1,427 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior:smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    position: fixed;
+    padding-left: 150px;
+    padding-bottom: 10px;
+    background-color:white;
+    z-index: 999;
+    width: 1352px;
+}
+.navbar li{
+    display: inline;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 20;
+    font-size: 12px;
+    color: #0F4C85;
+    margin-left: 10px;
+}
+
+.navbar h4{
+    display: inline;
+    color: #00305B;
+    font-family:'Noticia Text', serif;
+    font-weight: 100;
+    font-size: 25px;
+    margin-right: 170px;
+
+}
+.logo{
+    height: 45px;
+    width: 45px;
+    margin-top: 15px;
+}
+.skyscrapers{
+    width: 1350px;
+    height: 600px;
+}
+
+.bluediv{
+    position: absolute;
+    background-color: #00305B;
+    height: 600px;
+    width: 550px;
+    opacity: 0.5;
+}
+span{
+    position: relative;
+    bottom: 250px;
+    left: 250px;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+.btq{
+    font-weight: 700;
+}
+.firstsection{
+    height: 600px;
+}
+.txt{
+    position: relative;
+    bottom: 240px;
+    left: 250px;
+    font-family: 'Open sans',sans-serif;
+    color: white;
+    width: 250px;
+}
+.lightbluediv{
+    background-color: rgb(221, 226, 241);
+    height: 520px;
+    width: 550px;
+    opacity: 0.4;
+}
+
+.prcts{
+    position: relative;
+    bottom: 440px;
+    left: 250px;
+    font-weight: 550;
+    color: #00305B;
+}
+.areas{
+    position: relative;
+    bottom: 440px;
+    left: 250px;
+    color: #00305B;
+
+}
+.secondsection{
+    position: absolute;
+}
+.secondsectionwhite{
+    position: absolute;
+    background-color: white;
+    margin-left: 550px;
+    height: 520px;
+    width: 800px;
+}
+
+.secondsectionwhite{
+    font-family: 'Open sans',sans-serif;
+    color:#00305B  ;
+}
+
+.litigation{
+    position: absolute;
+}
+
+.litigation h3{
+    font-weight: 80;
+}
+.plitigation{
+    width: 270px;
+    font-size: 14px;
+}
+
+.rightside{
+    margin-left: 400px;
+
+}
+
+.firstrow{
+    margin-top: 100px;
+
+}
+.secondrow{
+    margin-top: 220px;
+}
+.thirdrow{
+    margin-top: 340px;
+}
+.leftside{
+    margin-left: 40px;
+}
+
+.bluelittlesquare{
+    background-color: #4c94d8;
+    height: 7px;
+    width: 7px;
+    position: absolute;
+    margin-left: -16px;
+    margin-top: 2px;
+}
+
+
+.thirdsection{
+    position: absolute;
+    margin-top: 520px;
+    background-color: #00305B;
+    width: 1350px;
+    height: 520px;
+    color: white;
+}
+
+.thirdsection h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    margin-left: 550px;
+    margin-bottom: 100px;
+    margin-top: 80px;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+.thirdsection p{
+    font-family:'Open sans',sans-serif;
+    width: 880px;
+    margin-left: 250px;
+    text-align: center;
+}
+
+.imgfourth{
+    margin-top: 1037px;
+    width: 1350px;
+    height: 520px;
+}
+
+.layer{
+    position: absolute;
+    margin-top: 1037px;
+    width: 1350px;
+    height: 520px;
+    background-color: grey;
+    opacity: 0.4;
+}
+
+.fifthsection{
+    background-color: #EAF4F6;
+    margin-top: -6px;
+    width: 1350px;
+    height: 718px;
+}
+
+.fifthsection h2{
+    position: relative;
+    top: 100px;
+    font-family: 'Raleway', sans-serif;
+    color:#00305B;
+    font-weight: 100;
+    margin-left: 550px;
+    font-size: 40px;
+}
+
+.firstatt{
+    position: absolute;
+    display: inline;
+    margin-top: 170px;
+    left: 300px;
+}
+
+.secondatt{
+    position: absolute;
+    display: inline;
+    margin-top: 170px;
+    left: 600px;
+}
+
+.thirdatt{
+    position: absolute;
+    display: inline;
+    margin-top: 170px;
+    left: 900px;
+}
+
+hr{
+    width: 190px;
+    border: solid;
+    border-color: #4c94d8;
+    border-width: 1px;
+}
+
+.nameofatt{
+    font-family: 'Open sans',sans-serif;
+    color:#00305B  ;
+    font-size: 18px;
+    text-align: center;
+    margin: 15px;
+}
+
+.positionofatt {
+    font-family: 'Open sans',sans-serif;
+    color:#00305B  ;
+    font-size: 14px;
+    text-align: center;
+    margin: 15px;
+}
+
+.contactofatt{
+    font-family: 'Open sans',sans-serif;
+    color:#00305B  ;
+    font-size: 17px;
+    text-align: center;
+    margin: 25px;
+}
+
+
+
+.sixthsection img{
+    position: absolute;
+    width: 1350px;
+    height: 580px;
+}
+
+.bluediv2{
+    position: absolute;
+    background-color: #00305B;
+    height: 560px;
+    width: 550px;
+    opacity: 0.7;
+}
+
+.largebluediv{
+    position: absolute;
+    background-color: #0f4c85;
+    height: 580px;
+    width: 1350px;
+    opacity: 0.8;
+}
+
+ .sixthsection h4{
+    color: white;
+    font-family:'Raleway',sans-serif;
+    position: relative;
+    top: 90px;
+    left: 330px;
+    font-weight: 550;
+    width: 140px;
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 1px;
+
+}
+
+.sixthsection p{
+    color: white;
+    font-family:'Open sans',sans-serif;
+    position: absolute;
+    font-size: 20px;
+    margin-top: -4px;
+    margin-left: 600px;
+}
+
+.contactinfo{
+    color: white;
+    font-family:'Open sans',sans-serif;
+    position: relative;
+    top: 43px;
+    left: 600px;
+    font-size: 17px;
+}
+
+.sixthsection a{
+    color: white;
+    font-family:'Open sans',sans-serif;
+    position: relative;
+    top: 70px;
+    left: 600px;
+    font-size: 18px;
+}
+.formintro{
+    color: white;
+    font-family:'Open sans',sans-serif;
+    position: relative;
+    top: 90px;
+    left: 600px;
+    font-size: 17px;
+}
+form{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 600px;
+}
+
+label{
+    color: white;
+    font-family:'Open sans',sans-serif;
+}
+
+label::after{
+    content: '*';
+}
+
+label, input{
+    margin: 3px;
+   height: 20px;
+   width: 220px;
+}
+
+
+.message{
+    position: relative;
+    left: 250px;
+    bottom: 195px;
+}
+
+textarea{
+    position: absolute;
+    left: 250px;
+    top: 20px;
+    height: 166px;
+    width: 183px;
+}
+
+.submit{
+    width: 430px;
+    height: 30px;
+    color: white;
+    background-color: #0F4C85;
+    border-color: white;
+    border: solid 1px;
+}
+
+.backtotopsection{
+    background-color: #00305B;
+    width: 1350px;
+    height: 450px;
+}
+
+.backtotopsection img{
+    position: relative;
+    transform: rotate(3.142rad);
+    width: 60px;
+    height: 20px;
+    top: 390px;
+    left: 650px;
+}
+
+.backtotop{
+    position: relative;
+    top: 410px;
+    left: 570px;
+    font-size: 15px;
+}
+
+
+button  {
+    background-color:#0f4c85;
+    border-radius: 0px;
+    color: white;
+    font-family: 'Raleway',sans-serif;
+    font-size: 18px;
+    border: solid 1px #0f4c85 ;
+    height: 50px;
+    width: 200px;
+    position: relative;
+    left: 1120px;
+    bottom: 50px;
+} 
+
+footer{
+    background-color:white;
+    width: 1352px;
+    height: 70px;
+    position:fixed;
+    bottom:0;
+    left:0;
+   }
