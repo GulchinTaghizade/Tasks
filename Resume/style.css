@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.resume{
+    margin-top: 50px;
+    padding-left: 25px;
+    width: 600px;
+}
+h1{
+    font-weight: normal;
+}
+
+hr{
+    border: 2px solid black;
+    width: 600px;
+}
+p{
+    font-size: 14px;
+}
+section{
+    padding-top: 15px ;
+}
+
+li{
+    font-size: 12px;
+}
+.whole{
+    display: flex;
+    margin-left: 150px;
+
+}
+
+.rightside{
+    padding-left: 130px;
+    width: 200px;
+}
+
+
+.lastjob, .firstjob {
+    display: flex;
+}
+
+
+.timeinterval h5{
+   width: 150px;
+}
+.edu{
+    display: flex;
+}
+.bachelor p{
+  font-size: 13px;
+}
+
+.additionalinfo ul{
+    margin-left: 150px;
+   
+}
