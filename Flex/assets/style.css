@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.col-3{
+    width: calc(100%/4);
+}
+
+.item{
+    height: 450px;
+    border-radius: 10%;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.item img{
+    width: 100%;
+    height: 188.78px;
+    padding: 10px;
+    border-radius: 15%;
+}
+
+
+.country-name, .country-summary{
+   text-align: center;
+   margin-bottom: 15px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.enterbtn{
+    margin: 25px 120px ;
+    background-color:#3c3b6e ;
+    color: white;
+    height: 30px;
+    width: 55px;
+    border-radius: 5%;
+}
