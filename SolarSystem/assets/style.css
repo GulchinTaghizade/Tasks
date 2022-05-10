@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.solar-system {
+    background-color: #43459c;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.orbit {
+    position: relative;
+}
+
+#sun {
+    top: 50%;
+    left: 50%;
+    background-color: yellow;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+#mercury {
+    top: 41%;
+    left: 48%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #13acd3;
+    z-index: 1;
+    animation-name: spin;
+    animation-duration: 4s;
+    animation-fill-mode: linear;
+    animation-iteration-count: infinite; 
+}
+
+.planet-mercury {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #13acd3;
+
+}
+
+
+#venus {
+    top: 28%;
+    left: 45%;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid #f0ca38;
+    z-index: 2;
+    animation-name: spin;
+    animation-duration: 5s;
+    animation-fill-mode: linear;
+    animation-iteration-count: infinite; 
+}
+
+.planet-venus {
+    margin: 4px;
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    background-color: #f0ca38;
+    ;
+
+}
+
+
+
+#earth {
+    top: 8%;
+    left: 41%;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1px solid #17945c;
+    z-index: 3;
+    animation-name: spin;
+    animation-duration: 6s;
+    animation-fill-mode: linear;
+    animation-iteration-count: infinite; 
+}
+
+.planet-earth {
+    margin: 8px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #17945c;
+
+}
+
+
+
+
+#mars {
+    top: -19%;
+    left: 38%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid #e04235;
+    z-index: 4;
+    animation-name: spin;
+    animation-duration: 7s;
+    animation-fill-mode: linear;
+    animation-iteration-count: infinite; 
+}
+
+.planet-mars {
+    margin: 13px;
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    background-color: #e04235;
+
+}
+
+
+#jupiter {
+    top: -52%;
+    left: 35%;
+    width: 182px;
+    height: 182px;
+    border-radius: 50%;
+    border: 1px solid #e49306;
+    z-index: 5;
+    animation-name: spin;
+    animation-duration: 8s;
+    animation-fill-mode: linear;
+    animation-iteration-count: infinite; 
+}
+
+.planet-jupiter {
+    margin: 16px;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background-color: #e49306
+}
+
+
+
+#saturn {
+    top: -92%;
+    left: 31%;
+    width: 215px;
+    height: 215px;
+    border-radius: 50%;
+    border: 1px solid #109fc4;
+    z-index: 6;
+    animation-name: spin;
+    animation-duration: 9s;
+    animation-fill-mode: linear;
+    animation-iteration-count: infinite; 
+}
+
+.planet-saturn {
+    margin: 23px;
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    background-color: #109fc4
+}
+
+
+#uranus {
+    top: -138%;
+    left: 28%;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    border: 1px solid #bcc047;
+    z-index: 7;
+    animation-name: spin;
+    animation-duration: 10s;
+    animation-fill-mode: linear;
+    animation-iteration-count: infinite; 
+}
+.planet-uranus {
+    margin: 27px;
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    background-color: #bcc047
+}
+
+
+#neptun {
+    top: -189%;
+    left: 25%;
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    border: 1px solid #9a6db0;
+    z-index: 8;
+    animation-name: spin;
+    animation-duration: 11s;
+    animation-fill-mode: linear;
+    animation-iteration-count: infinite; 
+}
+.planet-neptun {
+    margin: 31px;
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    background-color: #9a6db0
+}
+
+
+
+
+#pluto {
+    top: -247%;
+    left: 22%;
+    width: 302px;
+    height: 302px;
+    border-radius: 50%;
+    border: 1px solid #72a7fa;
+    z-index: 9;
+    animation-name: spin;
+    animation-duration: 12s;
+    animation-fill-mode: linear;
+    animation-iteration-count: infinite; 
+}
+.planet-pluto {
+    margin: 39px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #72a7fa
+}
+
+@keyframes spin{
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+ 
