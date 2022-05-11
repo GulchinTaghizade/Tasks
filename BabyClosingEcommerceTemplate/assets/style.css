@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#shop-together{
+    height: 800px;
+    background-image: url(https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/tixlyvnpr7/nynne-schroder-unsplash-A0xnbgZ4WxTJlN3R.jpg);
+}
+
+nav{
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo{
+    width: 78px;
+    height: 21px;
+    margin-right: 400px;
+}
+
+nav a{
+    text-decoration: none;
+    font-family: 'Montserrat';
+    color: #2e2e2e;
+    
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+nav i{
+    margin-right: 10px;
+}
+
+.firstsection{
+    position: absolute;
+    left: 300px;
+    top: 280px; 
+
+}
+span{
+    font-family: 'Prata', serif;
+    font-size: 40px;
+}
+
+p{
+    font-family: 'Montserrat';
+    text-align: justify;
+    margin-top: 50px;
+    line-height: 25px;
+}
+.firstsection p{
+    width: 460px;
+}
+
+button{
+    background-color: black;
+    color: #cccccc;
+    border-color: black;
+    width: 180px;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+button:hover{
+    background-color: #565656 ;
+}
+
+
+.summary p{
+    width: 550px;
+    text-align: center;
+}
+
+.summary{
+    margin-left: 700px;
+    margin-top: 60px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 35px;
+    
+}
+.btnexplore{
+    position: relative;
+    bottom: 75px;
+    left: 95px;
+} 
+
+.col-4{
+    width: 392px;
+}
+
+#our-story{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.our-story-span{
+    font-family: 'Montserrat' ;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.our-story-summary p{
+    width: 480px;
+    text-align: justify;
+    
+}
+
+.our-story-summary span{
+    display: block;
+    width: 500px; 
+}
+
+#discover-more span{
+    margin-left: 470px;
+}
+
+#discover-more  button{
+    position: relative;
+    left: 800px;
+}
+
+#discover-more {
+    margin-bottom: 100px;
+}
+
+footer{
+    background-color: #2e2e2e;
+    height: 350px;
+    
+} 
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    color: white;
+}
+
+footer a {
+    color: white;
+    font-family: "Montserrat";
+}
+
+
+footer div p{
+    width: 150px;
+    margin: 0;
+    text-align: start;
+}
+
+footer h2{
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.footer-item{
+    margin-top: 80px;
+}
+
+.subscribe-form{
+    margin-left: 200px;
+}
+
+footer input{
+    display: block;
+    background-color: #a5a7a9;
+    width: 400px;
+    height: 50px;
+    padding-left: 20px;
+}
+
+footer button{
+    display: block;
+    margin-top: 15px;
+    background-color: white;
+    color: black;
+    width: 150px;
+}
+
+footer button:hover{
+    background-color: #f1f1f1 ;
+}
+
+.footer-item p {
+    margin-top: 15px;
+}
+.footer-item a{
+   position: relative;
+   top: 15px;
+}
+
+.social-media{
+    display: flex;
+    gap: 25px;
+    color: white;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+i{
+    font-size: 25px;
+}
+
