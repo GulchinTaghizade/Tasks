@@ -7,6 +7,9 @@
 #shop-together{
     height: 800px;
     background-image: url(https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/tixlyvnpr7/nynne-schroder-unsplash-A0xnbgZ4WxTJlN3R.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 }
 
 nav{
