@@ -1,0 +1,100 @@
+@import "./abstract/variables";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first-row {
+    p {
+        font-size: $font-size;
+        color: $font-color;
+        margin-bottom: -25px;
+    }
+
+    img {
+        margin: 55px 0;
+    }
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+    .card-item {
+        display: flex;
+        gap: 30px;
+        margin: 30px 0;
+
+        .img-div {
+            img {
+                height: 208.06px;
+                width: 208.06px;
+            }
+        }
+
+        .card-item-summary {
+            margin-right: 45px;
+
+            h3 {
+                font-weight: 700;
+                font-size: 21px;
+            }
+
+            a {
+                text-decoration: none;
+                color: $font-color;
+                font-weight: 500;
+
+            }
+        }
+
+    }
+}
+
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    .main {
+        max-width: 767px;
+    }
+
+    .first-row {
+        p {
+            font-size: 34px;
+        }
+
+    }
+
+    .img-div {
+        display: none;
+    }
+
+    .card-item {
+        padding-top: 25px;
+        border-top: 1px solid #c5c5c5;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .main {
+        max-width: 991px;
+        margin-left: 25px;
+
+        .first-row {
+
+            p {
+                font-size: $font-size;
+                margin-top: 25px;
+                line-height: 0.8;
+            }
+
+            div {
+                width: 350px;
+            }
+        }
+
+    }
+}
