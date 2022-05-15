@@ -1,0 +1,1094 @@
+@import url("https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.carousel {
+  z-index: 0;
+}
+
+.carousel-item {
+  -webkit-transition: -webkit-transform 1.5s ease-in-out;
+  transition: -webkit-transform 1.5s ease-in-out;
+  transition: transform 1.5s ease-in-out;
+  transition: transform 1.5s ease-in-out, -webkit-transform 1.5s ease-in-out;
+}
+
+.carousel-indicators li {
+  background-color: #4e4040;
+  width: 7px;
+  height: 7px;
+  border-radius: 100%;
+  margin-left: 7px;
+}
+
+.carousel-indicators li:hover {
+  cursor: pointer;
+}
+
+.carousel .carousel-indicators li.active {
+  background-color: black;
+}
+
+#graduates-section .carousel-item {
+  -webkit-transition: -webkit-transform 1s ease-in-out;
+  transition: -webkit-transform 1s ease-in-out;
+  transition: transform 1s ease-in-out;
+  transition: transform 1s ease-in-out, -webkit-transform 1s ease-in-out;
+}
+
+#graduates-section .carousel-indicators li {
+  background-color: #b19a9a;
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  margin-left: 13px;
+  margin-top: 60px;
+}
+
+#graduates-section .carousel .carousel-indicators li.active {
+  background-color: black;
+}
+
+#graduates-section .carousel-inner img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  width: 250px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  background-color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+
+.dropdown-content a:hover {
+  background-color: #f4f5f8;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropbtn {
+  padding: 0px 16px;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+.dropbtn:after {
+  display: block;
+  content: "";
+  cursor: pointer;
+  border-bottom: solid 3px yellow;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform 250ms ease-in-out;
+  transition: -webkit-transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+}
+
+.dropbtn:hover:after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.dropbtn.fromRight:after {
+  -webkit-transform-origin: 100% 50%;
+          transform-origin: 100% 50%;
+}
+
+.dropbtn.fromLeft:after {
+  -webkit-transform-origin: 0% 50%;
+          transform-origin: 0% 50%;
+}
+
+.edu-dropdown-content {
+  width: 170px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  font-family: "Radio Canada", sans-serif;
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 46px;
+  height: 60px;
+  width: 100%;
+  z-index: 2;
+}
+
+header p {
+  font-size: 13px;
+  padding: 20px 25px;
+  color: #82839e;
+  margin-left: 3px;
+}
+
+header #search-btn {
+  font-size: 18px;
+  padding: 20px 25px;
+  color: black;
+}
+
+header #contact-btn {
+  background-color: #f9dd00;
+  font-size: 18px;
+  height: 100%;
+  padding: 7px 40px;
+  border: none;
+  text-align: center;
+}
+
+header #contact-btn:hover {
+  cursor: pointer;
+}
+
+.navbar {
+  padding: 20px 14px;
+  margin-left: -40px;
+}
+
+.navbar ul {
+  list-style-type: none;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar ul li a {
+  font-size: 18px;
+  color: #4a4a4a;
+  padding-left: 22px;
+}
+
+#code-logo {
+  display: none;
+}
+
+#code-logo img {
+  width: 150px;
+  height: 45px;
+}
+
+.responsive-icons {
+  display: none;
+}
+
+.responsive-icons a {
+  text-decoration: none;
+  color: black;
+  padding: 16px 16px;
+  font-size: 25px;
+}
+
+.responsive-icons .fa-bars {
+  padding-left: 40px;
+}
+
+#more-details {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#more-details .detail-item {
+  padding: 0 50px;
+  margin-top: 70px;
+}
+
+#more-details .detail-item p {
+  color: #8F8F8F8F;
+  font-size: 14.28571px;
+}
+
+#more-details .detail-item p b {
+  color: black;
+}
+
+#contact-info {
+  background-color: #f4f5f8;
+  text-align: center;
+  padding: 30px 0;
+}
+
+#socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 120px;
+}
+
+#socials img {
+  max-width: 165px;
+  max-height: 50px;
+}
+
+#socials a {
+  color: #4a4a4a;
+}
+
+#socials ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+#contact-us {
+  margin-top: 65px;
+  padding: 100px;
+  background-color: #f4f5f8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 65px;
+}
+
+#contact-us .contact-us-summary {
+  color: #4a4a4a;
+}
+
+#contact-us .contact-us-summary p {
+  font-size: 50px;
+}
+
+#contact-us .contact-us-summary .bold-font {
+  font-weight: 900;
+  line-height: 1;
+  margin-top: -25px;
+  margin-left: 40px;
+  margin-bottom: 35px;
+}
+
+#contact-us .contact-us-summary span {
+  display: block;
+  margin-left: 40px;
+}
+
+#contact-us .contact-us-form {
+  min-width: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#contact-us .contact-us-form input,
+#contact-us .contact-us-form select,
+#contact-us .contact-us-form button {
+  border: none;
+  outline: none;
+  height: 50px;
+  padding: 13px;
+  margin: 5px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  color: #4a4a4a;
+}
+
+#contact-us .contact-us-form select {
+  border: 1px solid white;
+}
+
+#contact-us .contact-us-form button {
+  width: 100%;
+  background-color: #fdbc2e;
+  color: white;
+  font-weight: 700;
+  font-size: large;
+}
+
+.explore-new-world {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-size: cover;
+  width: 93%;
+  margin-left: 48px;
+}
+
+.slider-navbar {
+  z-index: 1;
+  position: absolute;
+  margin-left: 55px;
+  margin-top: -7px;
+}
+
+.slider-navbar ul {
+  padding-left: 200px;
+}
+
+.slider-navbar ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+}
+
+.slider-navbar ul li a b {
+  color: white;
+}
+
+.edu-fields {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 328px;
+  padding: 100px 0 500px 0;
+}
+
+.education-summary {
+  width: 44%;
+}
+
+.education-summary h2 {
+  font-weight: 800;
+  color: #4a4a4a;
+  font-size: 50px;
+  margin-bottom: -15px;
+}
+
+.education-summary #fields-text {
+  font-size: 35px;
+  color: #4a4a4a;
+}
+
+.education-summary #summary-text {
+  padding-top: 28px;
+  color: #4a4a4a;
+}
+
+.fields-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.fields-container a {
+  text-decoration: none;
+}
+
+.categories {
+  padding: 15px;
+  border: 1px solid #d3d3d5;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.categories h3 {
+  color: black;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+.categories:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  border: 0;
+  z-index: 1;
+}
+
+.categories:hover a {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+.digital-marketing:hover {
+  background-color: rgba(102, 4, 119, 0.932);
+}
+
+.design:hover {
+  background-color: #dbbe18;
+}
+
+.programming:hover {
+  background-color: #146ee4;
+}
+
+.system:hover {
+  background-color: green;
+}
+
+.why-code-summary p {
+  font-size: 50px;
+  color: #4a4a4a;
+  margin-bottom: -25px;
+}
+
+.why-code-summary img {
+  margin: 55px 0;
+}
+
+.card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.card-container .card-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  margin: 30px 0;
+}
+
+.card-container .card-item .img-div img {
+  height: 208.06px;
+  width: 208.06px;
+}
+
+.card-container .card-item .card-item-summary {
+  margin-right: 45px;
+}
+
+.card-container .card-item .card-item-summary h3 {
+  font-weight: 700;
+  font-size: 21px;
+}
+
+.card-container .card-item .card-item-summary a {
+  text-decoration: none;
+  color: #212529;
+  font-weight: 500;
+}
+
+#statistics-section {
+  background: rgba(0, 0, 0, 0.5) url(https://2022.code.edu.az/wp-content/uploads/2021/09/code-academy-bg.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  height: 100%;
+}
+
+#statistics-section .main-container {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+
+.statistics-summary {
+  z-index: 0;
+}
+
+.statistics-summary h2 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 0px;
+  color: white;
+}
+
+.statistics-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 0;
+}
+
+.each-item .number {
+  font-size: 70px;
+  font-weight: 800;
+  margin-top: 40px;
+  color: white;
+}
+
+.each-item .number-text {
+  font-size: 35px;
+  font-weight: 300;
+  margin-top: -35px;
+  color: white;
+  line-height: 1em;
+  letter-spacing: -1px;
+}
+
+.header-text {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 285;
+  margin-top: 45px;
+  margin-bottom: 15px;
+  color: #4a4a4a;
+}
+
+.header-text b {
+  font-weight: 800;
+}
+
+.slide-text {
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 35px;
+  color: #4a4a4a;
+  padding: 0 248px;
+}
+
+.graduate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 15px;
+  margin-left: 40%;
+  padding-bottom: 50px;
+}
+
+.graduate-info span {
+  font-size: 21px;
+  font-weight: 900;
+  color: #4a4a4a;
+}
+
+.graduate-info p {
+  color: #918e8e;
+  font-size: 16.3px;
+}
+
+.partners img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.partners-header {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 285;
+  color: #4a4a4a;
+  margin-top: 42px;
+}
+
+.partners-header-text {
+  font-weight: 800;
+  text-align: center;
+  font-size: 50px;
+  color: #4a4a4a;
+  margin-top: -54.5px;
+  margin-bottom: 35px;
+}
+
+.partners-summary-text {
+  color: #4a4a4a;
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  padding: 0 248px;
+}
+
+.partners-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 150px;
+}
+
+.partners-logo img {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 120px;
+  max-height: 60px;
+  margin-top: 40px;
+}
+
+.summary .yellow-line {
+  width: 130px;
+  background-color: #fdbc2e;
+  height: 3px;
+  margin: 35px auto;
+}
+
+.summary p {
+  color: #4a4a4a;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: -25px;
+}
+
+.summary .bold-font {
+  font-weight: 900;
+}
+
+.cards {
+  margin-left: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 15px;
+}
+
+.cards img {
+  width: 150px;
+  height: 150px;
+}
+
+.cards .hover-layer {
+  position: absolute;
+  margin-top: -150px;
+  height: 150px;
+  width: 150px;
+  color: white;
+  padding: 15px;
+  visibility: hidden;
+}
+
+.cards .hover-layer h3 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.cards .hover-layer p {
+  font-size: 12.5px;
+}
+
+.cards .system {
+  background-color: rgba(37, 175, 95, 0.8);
+}
+
+.cards .design {
+  background-color: rgba(245, 197, 32, 0.8);
+}
+
+.cards .programming {
+  background-color: rgba(56, 134, 190, 0.8);
+}
+
+.cards .digital-marketing {
+  background-color: rgba(120, 44, 130, 0.7);
+}
+
+.cards .card_item:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.cards .card_item:hover .hover-layer {
+  visibility: visible;
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+@media screen and (min-width: 1200px) {
+  #contact-us {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  header {
+    min-width: 1233px;
+  }
+  .carousel-item {
+    min-width: 1139px;
+  }
+  .main {
+    min-width: 1165px;
+  }
+  #contact-us {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    min-width: 1165px;
+  }
+  #more-details {
+    min-width: 1200px;
+  }
+  #more-details .detail-item p {
+    font-size: 20px;
+  }
+  #statistics-section {
+    min-width: 1240px;
+  }
+  #contact-us {
+    min-width: 1240px;
+  }
+  #contact-info {
+    min-width: 1240px;
+  }
+  #socials {
+    min-width: 1240px;
+  }
+  #graduates-section {
+    min-width: 1240px;
+  }
+  .partners {
+    min-width: 1240px;
+  }
+  .summary {
+    margin-left: 250px;
+  }
+  .cards {
+    margin-left: 265px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .carousel-item {
+    min-width: 1042px;
+  }
+  .slider-navbar {
+    display: none;
+  }
+  .explore-new-world {
+    margin-top: 30px;
+    margin-left: -20px;
+    width: 1060px;
+  }
+  header {
+    background-color: white;
+    left: 3%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Radio Canada", sans-serif;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-left: 21px;
+    height: 60px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 35px 16px;
+    height: 100px;
+    min-width: 1042px;
+    margin-left: -10px;
+  }
+  header p,
+  header .navbar,
+  header #search-btn,
+  header button {
+    display: none;
+  }
+  #code-logo,
+  .responsive-icons {
+    display: block;
+  }
+  .responsive-icons a {
+    padding: 0px 10px;
+  }
+  .responsive-icons .fa-bars {
+    padding-left: 50px;
+  }
+  .edu-fields {
+    min-width: 1000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .fields-container {
+    display: block;
+    width: 51%;
+  }
+  .fields-container h3 {
+    display: inline;
+    padding-left: 25px;
+  }
+  .main {
+    min-width: 950px;
+    margin-left: 25px;
+  }
+  .main .why-code-summary p {
+    font-size: 50px;
+    margin-top: 25px;
+    line-height: 0.8;
+  }
+  .main .why-code-summary div {
+    width: 350px;
+  }
+  .main .card-row {
+    min-width: 1000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .main .card-row .card-container .card-item-summary h3 {
+    font-size: 25px;
+  }
+  .main .card-row .card-container .card-item-summary p {
+    font-size: 19px;
+  }
+  #statistics-section {
+    min-width: 1042px;
+  }
+  .statistics-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #graduates-section {
+    min-width: 1042px;
+  }
+  .slide-text {
+    font-size: 25px;
+    text-align: center;
+  }
+  .partners {
+    min-width: 1042px;
+  }
+  #contact-us {
+    min-width: 1042px;
+  }
+  .contact-us-summary {
+    margin-bottom: -100px;
+  }
+  .contact-us-summary span {
+    visibility: hidden;
+  }
+  .contact-us-form input,
+  .contact-us-form select,
+  .contact-us-form button {
+    min-height: 60px;
+    min-width: 286px;
+  }
+  #more-details {
+    min-width: 1042px;
+  }
+  #contact-info {
+    min-width: 1042px;
+  }
+  #socials {
+    min-width: 1042px;
+  }
+  .summary {
+    margin-left: 200px;
+  }
+  .cards {
+    margin-left: 200px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .slider-navbar {
+    display: none;
+  }
+  header {
+    background-color: white;
+    padding: 35px 16px;
+    height: 100px;
+    width: 1050px;
+    margin-left: -10px;
+  }
+  header p,
+  header .navbar,
+  header #search,
+  header button {
+    display: none;
+  }
+  .explore-new-world {
+    margin-top: 30px;
+    margin-left: -10px;
+    height: 20%;
+    width: 1050px;
+  }
+  #code-logo,
+  .responsive-icons {
+    display: block;
+  }
+  #code-logo img {
+    width: 200px;
+    height: 60px;
+  }
+  .edu-fields {
+    min-width: 1042px;
+    margin-bottom: 150px;
+    display: block;
+  }
+  .education-summary {
+    margin-left: 15px;
+  }
+  .categories {
+    border: 1px solid #d3d3d5;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .categories h3 {
+    display: inline;
+    color: black;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 30px;
+  }
+  .categories:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    border: 0;
+    z-index: 1;
+  }
+  .categories:hover a {
+    -webkit-filter: invert(100%);
+            filter: invert(100%);
+  }
+  .digital-marketing:hover {
+    background-color: rgba(102, 4, 119, 0.932);
+  }
+  .design:hover {
+    background-color: #dbbe18;
+  }
+  .programming:hover {
+    background-color: #146ee4;
+  }
+  .system:hover {
+    background-color: green;
+  }
+  .main {
+    min-width: 1042px;
+  }
+  .why-code-summary p {
+    font-size: 34px;
+  }
+  .img-div {
+    display: none;
+  }
+  .card-container .card-item {
+    padding-top: 25px;
+    border-top: 1px solid #c5c5c5;
+  }
+  .card-container .card-item .card-item-summary {
+    font-size: 20px;
+  }
+  .card-container .card-item .card-item-summary h3 {
+    font-weight: 900;
+    font-size: 30px;
+  }
+  .statistics-items {
+    display: inline;
+  }
+  #statistics-section {
+    min-width: 1042px;
+  }
+  #graduates-section {
+    min-width: 1042px;
+  }
+  .partners {
+    min-width: 1042px;
+  }
+  .partners-logo {
+    display: inline;
+  }
+  #more-details {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #contact-us {
+    min-width: 1042px;
+  }
+  .contact-us-summary {
+    margin-bottom: -100px;
+  }
+  .contact-us-summary span {
+    visibility: hidden;
+  }
+  .contact-us-form input,
+  .contact-us-form select,
+  .contact-us-form button {
+    font-size: 25px;
+    min-height: 60px;
+    min-width: 435px;
+  }
+  #more-details {
+    min-width: 1042px;
+  }
+  #more-details .detail-item p {
+    font-size: 20px;
+  }
+  #contact-info {
+    min-width: 1042px;
+  }
+  #socials {
+    min-width: 1042px;
+  }
+  .summary {
+    margin-left: 50%;
+  }
+  .cards {
+    margin-left: 320px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,6 @@
+@mixin alert($size,$weight,$top:0px,$theme:white){
+    font-size:$size ;
+    font-weight:$weight;
+    margin-top: $top;
+    color: $theme;
+}
